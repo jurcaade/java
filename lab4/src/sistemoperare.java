@@ -1,0 +1,4 @@
+enum sistemoperare {
+    WINDOWS,
+    LINUX
+}
