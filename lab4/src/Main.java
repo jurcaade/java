@@ -18,7 +18,7 @@ public class Main {
                         int nrInventar=Integer.parseInt(valori[1].trim());
                         int pret = Integer.parseInt(valori[2].trim());
                         String zonaMag = valori[3].trim();
-                        stare_echipament stare=stare_echipament.valueOf(valori[4].trim());
+                        stare_echipament stare = stare_echipament.valueOf(valori[4].trim());
                         String tipEchipament = valori[5].trim().toLowerCase();
 
                         switch (tipEchipament)
